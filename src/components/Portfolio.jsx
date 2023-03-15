@@ -1,5 +1,5 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
+import bigboytoys from '../assets/portfolio/bigboytoys.jpg'
 import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
@@ -10,27 +10,39 @@ const Portfolio = () => {
     const portfolios =[
         {
             id:1,
-            src:arrayDestruct
+            src:bigboytoys,
+            demo:"https://rutvik2699.github.io/Big-Boy-Toys/",
+            code:"https://github.com/Rutvik2699/Big-Boy-Toys"
         },
         {
             id:2,
-            src:installNode
+            src:installNode,
+            // demo:,
+            // code:
         },
         {
             id:3,
-            src:navbar
+            src:navbar,
+            // demo:,
+            // code:
         },
         {
             id:4,
-            src:reactParallax
+            src:reactParallax,
+            // demo:,
+            // code:
         },
         {
             id:5,
-            src:reactWeather
+            src:reactWeather,
+            // demo:,
+            // code:
         },
         {
             id:6,
-            src:reactSmooth
+            src:reactSmooth,
+            // demo:,
+            // code:
         },
     ]
 
@@ -48,7 +60,7 @@ const Portfolio = () => {
             <div 
                 className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 
-                {portfolios.map(({id,src})=>(
+                {portfolios.map(({id,src,demo,code})=>(
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                     <img 
                     src={src} 
