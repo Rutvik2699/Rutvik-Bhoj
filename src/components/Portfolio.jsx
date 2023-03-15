@@ -11,8 +11,10 @@ const Portfolio = () => {
         {
             id:1,
             src:bigboytoys,
-            demo:"https://rutvik2699.github.io/Big-Boy-Toys/",
-            code:"https://github.com/Rutvik2699/Big-Boy-Toys"
+            href1:' https://rutvik2699.github.io/Big-Boy-Toys/',
+            demo:(<>Demo</>),
+            href2:'https://github.com/Rutvik2699/Big-Boy-Toys',
+            code:(<>Code</>),
         },
         {
             id:2,
@@ -60,15 +62,15 @@ const Portfolio = () => {
             <div 
                 className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 
-                {portfolios.map(({id,src,demo,code})=>(
+                {portfolios.map(({id,src,demo,code,href1,href2})=>(
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                     <img 
                     src={src} 
                     alt="" 
                     className='rounded-md duration-200 hover:scale-105'/>
                     <div className='flex items-center justify-center'>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>{demo}</button>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>{code}</button>
+                        <button href={href1} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>{demo}</button>
+                        <button href={href2} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>{code}</button>
                     </div>
                 </div>
                     ))}

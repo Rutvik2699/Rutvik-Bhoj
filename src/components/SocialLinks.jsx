@@ -20,7 +20,7 @@ const SocialLinks = () => {
             id:2,
             child:(
                 <>
-                GtiHub<FaGithub size={30}/>
+                GitHub<FaGithub size={30}/>
                 </>
             ),
             href:'https://github.com/Rutvik2699',
