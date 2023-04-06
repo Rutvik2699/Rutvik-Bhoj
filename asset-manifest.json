@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rutvik-bhoj/static/css/main.75da0851.css",
-    "main.js": "/rutvik-bhoj/static/js/main.2fe8e434.js",
+    "main.js": "/rutvik-bhoj/static/js/main.c0055a67.js",
     "static/media/heroImage.png": "/rutvik-bhoj/static/media/heroImage.c667647fa8444aa8b377.png",
     "static/media/bigboytoys.jpg": "/rutvik-bhoj/static/media/bigboytoys.9a30cd713bdfb1ca1b81.jpg",
     "static/media/reactParallax.jpg": "/rutvik-bhoj/static/media/reactParallax.6f0d02a0def925fc9d7f.jpg",
@@ -19,10 +19,10 @@
     "static/media/javascript.png": "/rutvik-bhoj/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/rutvik-bhoj/index.html",
     "main.75da0851.css.map": "/rutvik-bhoj/static/css/main.75da0851.css.map",
-    "main.2fe8e434.js.map": "/rutvik-bhoj/static/js/main.2fe8e434.js.map"
+    "main.c0055a67.js.map": "/rutvik-bhoj/static/js/main.c0055a67.js.map"
   },
   "entrypoints": [
     "static/css/main.75da0851.css",
-    "static/js/main.2fe8e434.js"
+    "static/js/main.c0055a67.js"
   ]
 }
